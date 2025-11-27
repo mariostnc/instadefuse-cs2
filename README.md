@@ -1,2 +1,3 @@
 # instadefuse-cs2
-Instant Defuse with VIP level system in c# for Counter-Strike : Sharp
+Instant Defuse for VIP levels in c# for Counter-Strike : Sharp
+-# (you can remove the vip levels system if you want)
