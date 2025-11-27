@@ -19,7 +19,7 @@ public class InstadefusePlugin : BasePlugin
     public override string ModuleName => "Instadefuse Plugin";
     public override string ModuleVersion => Version;
     public override string ModuleAuthor => "ketmode";
-    public override string ModuleDescription => "https://github.com/mariostnc/isntadefusebyket";
+    public override string ModuleDescription => "https://github.com/mariostnc/instadefuse-cs2";
 
     public static readonly string LogPrefix = $"[Instadefuse {Version}] ";
     public static string MessagePrefix = $"[{ChatColors.Green}Retakes{ChatColors.White}] ";
@@ -30,11 +30,11 @@ public class InstadefusePlugin : BasePlugin
     private Translator _translator;
     // Paste DB details below, one per line. Fill the values between the quotes.
     // Example MySQL host/port: host = "45.76.85.9"  port = "3306"
-    private readonly string DbHost = "45.76.85.9";      // host or IP
+    private readonly string DbHost = "";      // host or IP
     private readonly string DbPort = "3306";            // port number
-    private readonly string DbUser = "u14_heJobD2EpG";  // username
-    private readonly string DbPassword = "4.VmVPdT93eqOAUi^^=+6FsZ"; // password
-    private readonly string DbName = "s14_mota";        // database name
+    private readonly string DbUser = "";  // username
+    private readonly string DbPassword = ""; // password
+    private readonly string DbName = "";        // database name
 
     private readonly string _vipDbConnectionString;
 
@@ -300,4 +300,5 @@ public class InstadefusePlugin : BasePlugin
         Console.WriteLine($"{LogPrefix}No planted bomb entities have been found!");
         return null;
     }
+
 }
